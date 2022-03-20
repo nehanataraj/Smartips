@@ -1,0 +1,38 @@
+body {
+  background-color:rgb(216,216,216);
+	font-family: verdana;
+	text-align: center;
+  font-size: 24px;
+	background-image: url('BackgroundImage.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 600px 750px;
+}
+input[type="text"] {
+    position: relative;
+    margin-top:500px;
+    left: -100px;
+    font-family: monospace;
+    height: 25px;
+    width: 300px;
+    box-shadow: 0px 0px 7px 0px #585555;
+    background-color: rgb(189, 188, 188);
+    border: 0;
+}
+input[type="submit"] {
+    position: relative;
+    margin-top:500px;
+    left: -100px;
+    font-family: monospace;
+    height: 25px;
+    width: 55px;
+    box-shadow: 0px 0px 7px 0px #353434;
+    background-color: rgb(201, 201, 201);
+    border: 0;
+}
+::placeholder {
+    color: rgb(172, 168, 168);
+    font-size: 1.1em;
+    font-family: 'Nokia';
+  }

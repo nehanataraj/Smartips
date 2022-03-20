@@ -1,0 +1,21 @@
+h2 {
+	font-size: 25px;
+  font-family:'digital-clock-font';
+}
+@font-face {
+  font-family: 'digital-clock-font';
+  src: url('digital-7.regular.ttf');
+}
+
+body {
+  background-color:rgb(216, 216, 216);
+	font-family: verdana;
+	text-align: left;
+  font-size: 24px;
+	background-image: url('BackgroundImage.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 600px 750px;
+}
+
